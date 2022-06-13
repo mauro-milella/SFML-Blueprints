@@ -86,4 +86,5 @@ bool Action::test() const
         if (_type & Type::Pressed)
             res = sf::Mouse::isButtonPressed(_event.mouseButton.button);
     }
+    return res;
 }

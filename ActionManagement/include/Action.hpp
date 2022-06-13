@@ -11,12 +11,12 @@ public:
     {
         RealTime    = 1,
         Pressed     = 1<<1,
-        Released    = 1<<2
+        Released    = 1<<2,
     };
     
 public:
     Action();
-
+    
     // Copy constructor and copy operator
     Action(const Action& other);
     Action& operator=(const Action& other);
@@ -33,8 +33,8 @@ public:
     bool operator==(const Action& other)    const;
 
 private:
-    friend class ActionTarget;
+    template<typename> friend class ActionTarget;
     sf::Event _event;
-    int _type;
+    unsigned int _type;
 
 };

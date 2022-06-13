@@ -1,2 +1,2 @@
 # SFML-Blueprints
-Sleek implementations of some general purpose Game Development concepts
+Sleek implementations of some general purpose Game Development concepts.
