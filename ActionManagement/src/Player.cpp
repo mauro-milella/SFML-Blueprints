@@ -12,15 +12,15 @@ ActionTarget(_playerInputs)
     // Key - Callback bindings
     // Default behaviour must be described in setDefaultsInput
     bind(PlayerInputs::Up, [this](const sf::Event&){
-        // ---
+        // Insert callback here
     });
 
     bind(PlayerInputs::Left, [this](const sf::Event&){
-        // ---
+        // Insert callback here
     });
 
     bind(PlayerInputs::Right, [this](const sf::Event&){
-        // ---
+        // Insert callback here
     });
 }
 
