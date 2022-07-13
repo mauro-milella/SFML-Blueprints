@@ -4,8 +4,6 @@
 
 #include <math.h>
 
-#include <iostream>
-
 ActionMap<int> Player::_playerInputs;
 
 Player::Player() :
