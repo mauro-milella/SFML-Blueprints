@@ -46,5 +46,3 @@ namespace Engine
 }
 
 #include "ResourceManager.tpl"
-
-#endif
