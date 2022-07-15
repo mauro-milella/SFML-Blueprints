@@ -45,6 +45,6 @@ namespace Engine
     };
 }
 
-#include <SFML-Book/ResourceManager.tpl>
+#include "ResourceManager.tpl"
 
 #endif
